@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgba(251, 253, 240, 0.616);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+
+        header{
+            background-color: rgba(221, 223, 205, 0.616);
+            padding: 0px;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        nav{
+            background-color: rgba(228, 228, 191, 0.747);
+            padding: 3px;
+            
+        }
+
+        main{
+            background-color: rgba(181, 184, 158, 0.616);
+            padding: 10px;
+            margin: 10px;
+            width: 800px;
+   
+        article{
+            background-color: rgba(226, 228, 212, 0.253);
+        }
+
+        article > aside{
+            background-color: rgba(221, 223, 205, 0.616);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+       
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil, consequatur, voluptatem ad laboriosam incidunt veritatis aut tempore nesciunt, vero sint exercitationem dignissimos dolores et numquam expedita dolor sunt debitis!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2> Notícias sobre o Brasil</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sapiente nihil ad illo dolorem perspiciatis odit, voluptatibus illum doloremque dicta aut, quos, nobis iure ducimus soluta. Pariatur dolorem aliquam dolore.</p>
+                <aside>
+                    <p> Artigo escrito por José da Silva.</p>
+                </aside>
+            </article>
+        
+            <article>
+                <nav>
+                    <ul>
+                        <li> <a href="#">Link</a> </li>
+                        <li> <a href="#">Link </a> </li>
+                        <li> <a href="#">Link </a> </li>
+                        <li> <a href="#">Link </a> </li>
+                        <li> <a href="#">Link </a> </li>
+                    </ul>
+                </nav>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo CursoEmVídeo.
+    </footer>
+
+    
+</body>
+</html>
