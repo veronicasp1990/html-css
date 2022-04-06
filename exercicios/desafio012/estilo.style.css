@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte3: cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +15,7 @@
 html, body {
     min-height: 100vh; /*vh =altura e vw =largura*/
     background-color: darkgray;
+    font-family: var(--fonte1);  
 }
 
 header {
@@ -18,7 +26,9 @@ header {
 
 header > h1 {
     padding-top: 50px;
-    font-variant: small-caps; 
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 4vw; 
 }
 
 header > p {
@@ -40,6 +50,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal {
@@ -54,7 +65,8 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.274);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
